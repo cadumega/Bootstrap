@@ -2,3 +2,19 @@
   background-color: #DDD;
   border: 1px solid #ccc;
 }
+
+.col-2 {
+  background-color: orange;
+  border: 1px solid #ccc;
+
+}
+
+[class^=col]{
+  background-color: aqua;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.container {
+  margin-top: 20px;
+}

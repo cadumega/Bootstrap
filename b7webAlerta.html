@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> <!-- mesma largura do dispositivo q acessar o site, se da zoom, responsividade eu que irei configurar e não automatico -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projeto Bootstrap 4</title>
+</head>
+<body>
+    <div class="container">
+
+      <div class="alert alert-success" role="alert">        <!--  primary danger success warning  -->
+        Usuário criado com sucesso!
+    </div>
+
+
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <h4>ERROR!</h4>
+          <p>E-mail e/ou senha incorretos!</p>
+          <button class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+           <span aria-hidden="true"></span>
+          </button>
+      </div>
+
+    <script type=text/javascript src="js/bootstrap.bundle.min.js"></script>
+    <script type=text/javascript src="jquery/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
+
+
+<!-- 
+Desocbri que no Bootstrap 5.0.0 o código a seguir funciona e o botão "x" fecha o aviso.
+Detalhe: class="btn-close"   data-bs-dimiss="alert" vejam a seguir:
+        <div class="alert alert-danger alert-dismissible " role="alert">
+            <h4 class="alert-heading">Login falhou</h4>
+            E-mail e senha incorretos!
+            <button  type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> -->
